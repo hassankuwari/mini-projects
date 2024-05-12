@@ -1,0 +1,14 @@
+.mini-projects-container {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .sidebar {
+    width: 270px; /* Set sidebar width to 270px */
+    flex: 0 0 270px; /* Fix sidebar width and prevent it from growing or shrinking */
+    background-color: bisque; /* Sidebar background color */
+  }
+  
+  .content-area {
+    flex: 1; /* Let content area take remaining space */
+    padding: 20px; /* Optional: Add padding for content area */
+  }
